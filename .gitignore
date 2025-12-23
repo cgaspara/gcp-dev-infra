@@ -1,0 +1,13 @@
+# Terraform local state and plan files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.*
+
+# Sensitive input files
+*.tfvars
+
+# General
+*.log
+*.bak
+*.swp
