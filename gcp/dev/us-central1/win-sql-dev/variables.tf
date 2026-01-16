@@ -6,7 +6,7 @@ variable "zone" {
   default = "us-central1-a"
 }
 variable "instance_name" {
-  default = "gcp_win-sql-dev-vm"
+  default = "win-sql-dev-vm"
 }
 variable "machine_type" {
   default = "e2-medium"
