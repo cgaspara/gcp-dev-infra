@@ -11,7 +11,7 @@ resource "google_compute_instance" "windows_sql_vm" {
 
   boot_disk {
     initialize_params {
-      image = "windows-cloud/windows-server-2022-dc-v20240109"
+      image = "windows-server-2022-dc-v20260114"
       size  = 50
       type  = "pd-balanced"
     }
